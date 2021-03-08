@@ -6,7 +6,7 @@ function openSidebar() {
 function closeSidebar() {
     document.getElementById('sidebar').style.right = "-270px"
     document.getElementById('bg-sidebar').style.display = "none"
-    document.querySelector('html').style.overflow = "auto"
+    document.querySelector('html').style.overflow = "scroll"
     document.querySelector('.gmae-show').classList.remove('show')
 }
 function openSubmenuGame() {

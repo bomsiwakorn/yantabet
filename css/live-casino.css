@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,35 +9,23 @@
     font-family: DBHelvethaica;
     src: url(../font/DB-Helvethaica-X-Med-v3.2.ttf);
 }
-.bg-velvet {
-    width: 100%;
-    position: fixed;
-    background: url('../assets/Velvet-BG-SET1.png') no-repeat;
-    background-position: center;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    overflow-y: auto;
-}
+
 .container {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 .5rem;
 }
 
-.wrapper-banner {
+.wrapper-banner img{
     width: 90%;
     position: relative;
-    top: 12px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
 }
-.wrapper-banner img {
+/* .wrapper-banner img {
     width: 100%;
-}
+} */
 
 .wrapper-btn-game {
     margin: .5rem;

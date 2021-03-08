@@ -10,19 +10,6 @@
     font-family: DBHelvethaica;
     src: url(../font/DB-Helvethaica-X-Med-v3.2.ttf);
 }
-.bg-velvet {
-    width: 100%;
-    position: fixed;
-    background: url('../assets/Velvet-BG-SET1.png') no-repeat;
-    background-position: center;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    overflow-y: auto;
-}
 .container {
     max-width: 100%;
     margin: 0 auto;
@@ -61,7 +48,7 @@
     border: 3px solid #AE893F;
     width: 150px;
     height: 150px;
-    border-radius: 25px;
+    border-radius: 24px;
     position: relative;
     background: linear-gradient(180deg, rgba(35, 35, 35,0) 0%, rgba(35, 35, 35,0) 70%, rgba(174, 137, 63,.3) 100%);
 }
@@ -81,6 +68,6 @@
     color: #fff;
     letter-spacing: 1px;
     font-family: 'Prompt', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
 }
