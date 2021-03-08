@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DBHelvethaica;
+}
+@font-face {
+    font-family: DBHelvethaica;
+    src: url(../font/DB-Helvethaica-X-Med-v3.2.ttf);
+}
+.bg-velvet {
+    width: 100%;
+    position: fixed;
+    background: url('../assets/Velvet-BG-SET1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow-y: auto;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+
+.wrapper-banner {
+    width: 90%;
+    position: relative;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wrapper-banner img {
+    width: 100%;
+}
+
+.wrapper-btn-game {
+    margin: .5rem;
+}
+.wrapper-all-games {
+    position: relative;
+    width: 100%;
+    margin-top: 1.2rem;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+}
+.all-games {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-game {
+    border: 3px solid #AE893F;
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(35, 35, 35,0) 0%, rgba(35, 35, 35,0) 70%, rgba(174, 137, 63,.3) 100%);
+}
+.card-game img {
+    position: absolute;
+    width: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.card-game h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    white-space: nowrap;
+    color: #fff;
+    letter-spacing: 1px;
+}

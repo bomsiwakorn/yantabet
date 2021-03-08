@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap');
+
+section.annoucement {
+    position: fixed;
+    bottom: 48px;
+    height: 25px;
+    background: #AE893F;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+}
