@@ -20,7 +20,7 @@
 .wrapper-banner {
     width: 100%;
     position: relative;
-    top: 0;
+    top: 55px;
     left: 0;
     right: 0;
 }
@@ -29,6 +29,7 @@
 }
 
 .wrapper-all-games {
+    top: 55px;
     position: relative;
     width: 100%;
     display: flex;
