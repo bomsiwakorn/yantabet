@@ -24,3 +24,19 @@ body {
     position: relative;
     top: 35px;
 }
+.wrapper-games {
+    width: 100%;
+    position: relative;
+    top: -20px;
+    margin-bottom: 2rem;
+    display: grid;
+    justify-items: center;
+}
+.item-game {
+    width: 85%;
+    margin-bottom: .8rem;
+}
+.item-game img {
+    width: 100%;
+    
+}

@@ -19,13 +19,10 @@
 .wrapper-banner img{
     width: 90%;
     position: relative;
-    top: 55px;
+    top: 70px;
     left: 50%;
     transform: translateX(-50%);
 }
-/* .wrapper-banner img {
-    width: 100%;
-} */
 
 .wrapper-btn-game {
     margin: .5rem;
@@ -33,19 +30,20 @@
 .wrapper-all-games {
     position: relative;
     width: 100%;
-    margin-top: 1.2rem;
-    margin-bottom: 6rem;
-    display: flex;
-    align-items: center;
+    top: 70px;
+    overflow: scroll;
+    padding-bottom: 5.2rem;
 }
 .all-games {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.all-games div {
+    padding: 8px;
+}
 .card-game {
     border: 3px solid #AE893F;
-    width: 150px;
     height: 100px;
     border-radius: 25px;
     position: relative;

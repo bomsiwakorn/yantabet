@@ -29,13 +29,11 @@
 }
 
 .wrapper-all-games {
-    top: 55px;
+    top: 80px;
     position: relative;
     width: 100%;
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 6rem;
+    overflow: scroll;
+    padding-bottom: 3.5rem;
 }
 .wrapper-btn-game {
     margin: .5rem;
@@ -45,9 +43,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.all-games div {
+    padding: 8px;
+}
 .card-game {
     border: 3px solid #AE893F;
-    width: 150px;
+    width: 100%;
     height: 150px;
     border-radius: 24px;
     position: relative;
