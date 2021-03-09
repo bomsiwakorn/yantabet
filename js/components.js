@@ -46,7 +46,7 @@ class SideBar extends HTMLElement {
                         <span onclick="openSubmenuGame()" class="fas fa-caret-down btn-open-show-game"></span>
                     </a>
                     <ul class="gmae-show">
-                        <li><a href="#">คาสิโนสด</a></li>
+                        <li><a href="live-casino.html">คาสิโนสด</a></li>
                         <li><a href="#">สล๊อตออนไลน์</a></li>
                         <li><a href="#">เกมส์ไพ่</a></li>
                         <li><a href="#">พนันกีฬา</a></li>
