@@ -56,7 +56,7 @@
 }
 .card-game img {
     position: absolute;
-    width: 115%;
+    width: 102%;
     top: 43%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
